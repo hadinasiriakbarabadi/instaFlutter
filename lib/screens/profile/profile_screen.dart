@@ -113,7 +113,7 @@ class ProfileScreen extends StatelessWidget {
                         ),
                         follow("12", "پست"),
                         follow("80M", "هوادار"),
-                        follow("1", "زتبه"),
+                        follow("1", "رتبه"),
                         SizedBox(width: 20),
                       ],
                     ),

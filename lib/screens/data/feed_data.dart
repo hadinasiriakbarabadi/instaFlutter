@@ -2,7 +2,7 @@ class FeedData {
   static const List<Map<String, dynamic>> mapFeed = [
     {
       'avatar': 'assets/avatars/taremi.jpg',
-      'username': 'علیرضا طارمی',
+      'username': 'علیرضا بیرانوند',
       'location': 'لیسبون، پرتغال',
       'posting_image': 'assets/feeds/taremi1.jpg',
       'description':
@@ -13,7 +13,7 @@ class FeedData {
     },
     {
       'avatar': 'assets/avatars/taremi.jpg',
-      'username': 'علیرضا طارمی',
+      'username': 'علیرضا بیرانوند',
       'location': 'لیسبون، پرتغال',
       'posting_image': 'assets/feeds/taremi1.jpg',
       'description':
