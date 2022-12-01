@@ -31,14 +31,15 @@ class ProfileScreen extends StatelessWidget {
                       height: 20,
                       width: 24,
                       decoration: BoxDecoration(
-                        color: Colors.red,
+                        color: Colors.white,
                         borderRadius: BorderRadius.circular(15),
                       ),
                       child: Center(
                         child: Text(
-                          "+98",
+                          "98+",
                           style: TextStyle(
                             fontSize: 12,
+                            color: Colors.red
                           ),
                         ),
                       ),
@@ -330,6 +331,7 @@ class ProfileScreen extends StatelessWidget {
                       return Container(
                         alignment: Alignment.bottomLeft,
                         decoration: BoxDecoration(
+                          shape: BoxShape.circle,
                           image: DecorationImage(
                             image: AssetImage("assets/product/$index.jpg"),
                             fit: BoxFit.cover,
