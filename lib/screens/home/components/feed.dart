@@ -256,7 +256,7 @@ class FeedItem extends StatelessWidget {
                   Expanded(
                     child: Text.rich(
                       TextSpan(
-                        text: '1 hour ago • ',
+                        text: 'یک ساعت اخیر • ',
                         style: TextStyle(
                           fontWeight: normal,
                           fontSize: 12,

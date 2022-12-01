@@ -14,19 +14,19 @@ class _MainScreenState extends State<MainScreen> {
 
   final List<Widget> pages = const <Widget>[
     HomeScreen(
-      key: PageStorageKey<String>('Home'),
+      key: PageStorageKey<String>('خانه'),
     ),
     SearchScreen(
-      key: PageStorageKey<String>('Search'),
+      key: PageStorageKey<String>('جست جو'),
     ),
     ReelsScreen(
       key: PageStorageKey<String>('Reels'),
     ),
     ShopScreen(
-      key: PageStorageKey<String>('Shop'),
+      key: PageStorageKey<String>('فروشگاه'),
     ),
     ProfileScreen(
-      key: PageStorageKey<String>('Profile'),
+      key: PageStorageKey<String>('پروفایل'),
     ),
   ];
   @override
@@ -49,16 +49,38 @@ class _MainScreenState extends State<MainScreen> {
         },
         items: [
           BottomNavigationBarItem(
+            icon: Container(
+              height: 25,
+              decoration: BoxDecoration(
+                shape: BoxShape.circle,
+                image: DecorationImage(
+                  image: AssetImage(
+                    'assets/avatars/monfauzii.png',
+                  ),
+                ),
+              ),
+            ),
+            label: 'Profile',
+          ),
+          BottomNavigationBarItem(
             icon: Image.asset(
-              'assets/icons/home_outline.png',
+              'assets/icons/shop_outline.png',
               scale: 2,
               color: (_currentIndex == 2) ? whiteColor : blackColor,
             ),
             activeIcon: Image.asset(
-              'assets/icons/home_filled.png',
+              'assets/icons/shop_filled.png',
               scale: 2,
             ),
-            label: 'Home',
+            label: 'Shop',
+          ),
+          BottomNavigationBarItem(
+            icon: Image.asset(
+              'assets/icons/reels_outline.png',
+              scale: 2,
+              color: (_currentIndex == 2) ? whiteColor : blackColor,
+            ),
+            label: 'Reels',
           ),
           BottomNavigationBarItem(
             icon: Image.asset(
@@ -74,38 +96,19 @@ class _MainScreenState extends State<MainScreen> {
           ),
           BottomNavigationBarItem(
             icon: Image.asset(
-              'assets/icons/reels_outline.png',
-              scale: 2,
-              color: (_currentIndex == 2) ? whiteColor : blackColor,
-            ),
-            label: 'Reels',
-          ),
-          BottomNavigationBarItem(
-            icon: Image.asset(
-              'assets/icons/shop_outline.png',
+              'assets/icons/home_outline.png',
               scale: 2,
               color: (_currentIndex == 2) ? whiteColor : blackColor,
             ),
             activeIcon: Image.asset(
-              'assets/icons/shop_filled.png',
+              'assets/icons/home_filled.png',
               scale: 2,
             ),
-            label: 'Shop',
+            label: 'Home',
           ),
-          BottomNavigationBarItem(
-            icon: Container(
-              height: 25,
-              decoration: BoxDecoration(
-                shape: BoxShape.circle,
-                image: DecorationImage(
-                  image: AssetImage(
-                    'assets/avatars/monfauzii.png',
-                  ),
-                ),
-              ),
-            ),
-            label: 'Profile',
-          ),
+
+
+
         ],
       ),
     );

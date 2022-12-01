@@ -58,11 +58,14 @@ class _SignInScreenState extends State<SignInScreen> {
                       ),
                     ),
                     child: TextFormField(
+                      textDirection: TextDirection.rtl,
+                      textAlign: TextAlign.right,
                       controller: _emailController,
                       keyboardType: TextInputType.emailAddress,
                       decoration: InputDecoration(
+
                         border: InputBorder.none,
-                        hintText: 'Phone number, username or email',
+                        hintText: 'شماره تلفن، نام کاربری',
                         hintStyle: TextStyle(
                           color: greyDarkColor,
                           fontSize: 14,
@@ -100,12 +103,13 @@ class _SignInScreenState extends State<SignInScreen> {
                       ),
                     ),
                     child: TextFormField(
+                      textAlign: TextAlign.right,
                       controller: _passwordController,
                       keyboardType: TextInputType.text,
                       obscureText: !_isHidePassword,
                       decoration: InputDecoration(
                         border: InputBorder.none,
-                        hintText: 'Password',
+                        hintText: 'پسوورد',
                         hintStyle: TextStyle(
                           color: greyDarkColor,
                           fontSize: 14,
@@ -133,7 +137,7 @@ class _SignInScreenState extends State<SignInScreen> {
                     mainAxisAlignment: MainAxisAlignment.end,
                     children: [
                       Text(
-                        'Forgot Password?',
+                        'آیا رمز عبور خود را فراموش کرده اید؟',
                         style: TextStyle(
                           color: blueColor,
                           fontWeight: medium,
@@ -182,7 +186,7 @@ class _SignInScreenState extends State<SignInScreen> {
                                   }
                                 : null,
                             child: Text(
-                              'Log In',
+                              'ورود',
                               style: TextStyle(
                                 color: whiteColor,
                               ),
@@ -200,7 +204,7 @@ class _SignInScreenState extends State<SignInScreen> {
                       ),
                       SizedBox(width: 20),
                       Text(
-                        'OR',
+                        'یا',
                         style: TextStyle(
                           color: greyDarkColor,
                           fontWeight: medium,
@@ -222,7 +226,7 @@ class _SignInScreenState extends State<SignInScreen> {
                       Image.asset('assets/logo/facebook.png', height: 20),
                       SizedBox(width: 10),
                       Text(
-                        'Log In With Facebook',
+                        'ورود به وسیله گوگل',
                         style: TextStyle(
                           color: blueColor,
                           fontWeight: medium,
@@ -250,14 +254,14 @@ class _SignInScreenState extends State<SignInScreen> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Text(
-              "Don't have an account? ",
+              "حساب کاربری ندارید؟ ",
               style: TextStyle(
                 color: greyDarkColor,
                 letterSpacing: 0.1,
               ),
             ),
             Text(
-              ' Sign Up.',
+              ' ساخت حساب کاربری',
               style: TextStyle(
                 color: blueColor,
                 fontWeight: medium,

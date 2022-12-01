@@ -1,4 +1,4 @@
-name: instagram_ui_clone
+name: havadar
 description: monfauzi.com.
 
 publish_to: 'none'
@@ -12,6 +12,8 @@ dependencies:
   cupertino_icons: ^1.0.2
   flutter:
     sdk: flutter
+  flutter_localizations:
+      sdk: flutter
   flutter_staggered_grid_view: ^0.4.0
   marquee: ^2.2.0
 

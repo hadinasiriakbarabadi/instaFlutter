@@ -22,7 +22,7 @@ class SearchScreen extends StatelessWidget {
               child: TextField(
                 decoration: InputDecoration(
                   border: InputBorder.none,
-                  hintText: 'Search',
+                  hintText: 'جست جو',
                   hintStyle: TextStyle(
                     color: greyDarkColor,
                     fontSize: 16,

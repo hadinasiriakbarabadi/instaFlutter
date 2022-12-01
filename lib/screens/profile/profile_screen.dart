@@ -19,7 +19,7 @@ class ProfileScreen extends StatelessWidget {
                 title: Row(
                   children: [
                     Text(
-                      "monfadev",
+                      "هوادار",
                       style: TextStyle(
                         color: blackColor,
                         fontWeight: bold,
@@ -36,7 +36,7 @@ class ProfileScreen extends StatelessWidget {
                       ),
                       child: Center(
                         child: Text(
-                          "9+",
+                          "+98",
                           style: TextStyle(
                             fontSize: 12,
                           ),
@@ -122,7 +122,7 @@ class ProfileScreen extends StatelessWidget {
                       width: 100,
                       margin: EdgeInsets.symmetric(horizontal: defaultMargin),
                       child: Text(
-                        "monfadev",
+                        "هوادار",
                         style: TextStyle(
                           fontWeight: medium,
                         ),
@@ -135,7 +135,7 @@ class ProfileScreen extends StatelessWidget {
                       width: 100,
                       margin: EdgeInsets.symmetric(horizontal: defaultMargin),
                       child: Text(
-                        "@rfprivatestore",
+                        "@havadar",
                         style: TextStyle(
                           color: Colors.blue.shade700,
                           fontSize: 13,
@@ -150,7 +150,7 @@ class ProfileScreen extends StatelessWidget {
                       width: 100,
                       margin: EdgeInsets.symmetric(horizontal: defaultMargin),
                       child: Text(
-                        "@monfadev",
+                        "@havadar",
                         style: TextStyle(
                           color: Colors.blue.shade700,
                           fontSize: 13,
@@ -178,7 +178,7 @@ class ProfileScreen extends StatelessWidget {
                               ),
                               onPressed: () {},
                               child: Text(
-                                "Edit Profile",
+                                "ویرایش پروفایل",
                                 style: TextStyle(
                                   color: blackColor,
                                 ),

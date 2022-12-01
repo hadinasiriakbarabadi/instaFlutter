@@ -16,7 +16,7 @@ class ReelsDetail extends StatelessWidget {
             title: Row(
               children: [
                 Text(
-                  "monfadev",
+                  "هوادار",
                   style: TextStyle(
                     color: whiteColor,
                     fontWeight: medium,
@@ -40,7 +40,7 @@ class ReelsDetail extends StatelessWidget {
           Padding(
             padding: const EdgeInsets.symmetric(horizontal: defaultMargin),
             child: Text(
-              "Hello gais, my first reels",
+              "سلام اولین پست من",
               style: TextStyle(
                 color: whiteColor,
                 fontWeight: light,
@@ -60,7 +60,7 @@ class ReelsDetail extends StatelessWidget {
                     blankSpace: 20,
                     scrollAxis: Axis.horizontal,
                     velocity: 10,
-                    text: "monfadev song",
+                    text: "هوادار",
                     style: TextStyle(
                       color: whiteColor,
                       fontWeight: normal,
@@ -68,7 +68,7 @@ class ReelsDetail extends StatelessWidget {
                   ),
                 ),
                 Text(
-                  "   •  Original Audio",
+                  "   •  موزیک های ارجینال",
                   style: TextStyle(color: whiteColor),
                 ),
               ],

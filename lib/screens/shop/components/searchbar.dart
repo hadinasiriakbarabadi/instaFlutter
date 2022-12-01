@@ -23,7 +23,7 @@ class CustomSearchBar extends StatelessWidget {
               child: TextField(
                 decoration: InputDecoration(
                   border: InputBorder.none,
-                  hintText: "Search",
+                  hintText: "جست جو",
                   hintStyle: TextStyle(
                     color: greyDarkColor,
                     fontSize: 16,
@@ -37,7 +37,7 @@ class CustomSearchBar extends StatelessWidget {
               ),
             )
           : Text(
-              "Shop",
+              "فروشگاه",
               style: TextStyle(
                 color: blackColor,
                 fontSize: 26,
