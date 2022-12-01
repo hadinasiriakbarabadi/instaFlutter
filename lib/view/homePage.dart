@@ -212,12 +212,7 @@ class _HomePageState extends State<HomePage> {
               ),
               ListTile(
                 onTap: () {
-                  Navigator.push(
-                      context,
-                      PageTransition(
-                          type: PageTransitionType.rightToLeft,
-                          duration: Duration(milliseconds: 700),
-                          child: LoginScreen()));
+                  Fluttertoast.showToast(msg: "شرمنده، وقت نشد تکمیلش کنیم...!", fontSize: 15);
                 },
                 leading:
                     const Icon(Icons.settings, size: 20.0, color: Colors.white),
@@ -241,12 +236,7 @@ class _HomePageState extends State<HomePage> {
               ),
               ListTile(
                 onTap: () {
-                  Navigator.push(
-                      context,
-                      PageTransition(
-                          type: PageTransitionType.rightToLeft,
-                          duration: Duration(milliseconds: 700),
-                          child: LoginScreen()));
+                  Fluttertoast.showToast(msg: "شرمنده، وقت نشد تکمیلش کنیم...!", fontSize: 15);
                 },
                 leading: const Icon(Icons.contact_mail,
                     size: 20.0, color: Colors.white),
@@ -259,12 +249,7 @@ class _HomePageState extends State<HomePage> {
               ),
               ListTile(
                 onTap: () {
-                  Navigator.push(
-                      context,
-                      PageTransition(
-                          type: PageTransitionType.rightToLeft,
-                          duration: Duration(milliseconds: 700),
-                          child: LoginScreen()));
+                  Fluttertoast.showToast(msg: "شرمنده، وقت نشد تکمیلش کنیم...!", fontSize: 15);
                 },
                 leading: const Icon(Icons.message_rounded,
                     size: 20.0, color: Colors.white),
@@ -289,12 +274,7 @@ class _HomePageState extends State<HomePage> {
               ),
               ListTile(
                 onTap: () {
-                  Navigator.push(
-                      context,
-                      PageTransition(
-                          type: PageTransitionType.rightToLeft,
-                          duration: Duration(milliseconds: 700),
-                          child: LoginScreen()));
+                  Fluttertoast.showToast(msg: "شرمنده، وقت نشد تکمیلش کنیم...!", fontSize: 15);
                 },
                 leading:
                     const Icon(Icons.policy, size: 20.0, color: Colors.white),
@@ -367,7 +347,7 @@ void share() async {
 لینک زیر رو بزن برنامه رو دانلود کن و بارتو بگیر
 ''',
       linkUrl: 'https://cafebazaar.ir/app/com.virabar.bigbaar',
-      chooserTitle: 'ارسال بیگ بار به دوستان');
+      chooserTitle: 'ارسال هوادار به دوستان');
 }
 
 openregister() async {

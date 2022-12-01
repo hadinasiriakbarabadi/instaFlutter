@@ -42,24 +42,27 @@ class _IntroPageState extends State<IntroPage> {
 
   _body(PageController controller) {
     return Expanded(
-      child: PageView.builder(
-        controller: controller,
-        itemCount: list.length,
-        itemBuilder: (context, index) {
-          return Column(
-            children: <Widget>[
-              index == 1
-                  ? _displayText(list[index].text)
-                  : _displayImage(list[index].id),
-              SizedBox(
-                height: 25,
-              ),
-              index == 1
-                  ? _displayImage(list[index].id)
-                  : _displayText(list[index].text),
-            ],
-          );
-        },
+      child: Directionality(
+        textDirection: TextDirection.ltr,
+        child: PageView.builder(
+          controller: controller,
+          itemCount: list.length,
+          itemBuilder: (context, index) {
+            return Column(
+              children: <Widget>[
+                index == 1
+                    ? _displayText(list[index].text)
+                    : _displayImage(list[index].id),
+                SizedBox(
+                  height: 25,
+                ),
+                index == 1
+                    ? _displayImage(list[index].id)
+                    : _displayText(list[index].text),
+              ],
+            );
+          },
+        ),
       ),
     );
   }
@@ -77,7 +80,7 @@ class _IntroPageState extends State<IntroPage> {
               width: 90,
               height: 90,
               child: CircularProgressIndicator(
-                valueColor: AlwaysStoppedAnimation(Colors.purple),
+                valueColor: AlwaysStoppedAnimation(Colors.green),
                 value: (initialPage + 1) / (list.length + 1),
               ),
             ),
@@ -104,13 +107,13 @@ class _IntroPageState extends State<IntroPage> {
                 width: 65,
                 height: 65,
                 decoration: BoxDecoration(
-                  color: Colors.purple,
+                  color: Colors.green,
                   borderRadius: BorderRadius.all(
                     Radius.circular(100),
                   ),
                 ),
                 child: Icon(
-                  Icons.arrow_forward_ios,
+                  Icons.arrow_back,
                   color: Colors.white,
                 ),
               ),

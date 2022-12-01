@@ -7,16 +7,16 @@ class StepModel {
   static List<StepModel> list = [
     StepModel(
       id: 1,
-      text: "Browse the menu\nand order directly from\nthe application",
+      text: "آخرین اطلاعات\n معتبر ترین اخبار\n چالشی ترین\n فقط در هوادار",
     ),
     StepModel(
       id: 2,
       text:
-          "Your order will be\nimmediately collected and\nsent by our courier",
+          "از تیم و یا شخص قهرمان\n خود حمایت ویژه کنید",
     ),
     StepModel(
       id: 3,
-      text: "Pick update delivery\nat your door and enjoy\ngroceries",
+      text: "پک ویژه خود را\n مستقیما از باشگاه بگیرید",
     ),
   ];
 }

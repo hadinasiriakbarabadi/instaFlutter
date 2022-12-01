@@ -6,14 +6,14 @@ import 'package:webview_flutter/webview_flutter.dart';
 
 import '../../view/animatedProgressWidget.dart';
 
-class item1 extends StatefulWidget {
+class item3 extends StatefulWidget {
   @override
   _MyAppState createState() => _MyAppState();
 }
 
-const String flutterUrl = "https://footballi.net/live-scores";
+const String flutterUrl = "https://footballi.net/live";
 
-class _MyAppState extends State<item1> {
+class _MyAppState extends State<item3> {
   late WebViewController _controller;
 
 
@@ -42,7 +42,7 @@ class _MyAppState extends State<item1> {
       extendBody: true,
       extendBodyBehindAppBar: true,
       appBar: AppBar(
-        title: Text("نتایج زنده فوتبال", textAlign: TextAlign.center,style: TextStyle(fontWeight: FontWeight.w600)),
+        title: Text("پخش زنده", textAlign: TextAlign.center,style: TextStyle(fontWeight: FontWeight.w600)),
         centerTitle: true,
       ),
       body: Container(
@@ -62,7 +62,9 @@ class _MyAppState extends State<item1> {
   }
 
   // _getData() async {
-  //   animatedProgress();
+  //   setState(() {
+  //     animatedProgress();
+  //   });
   //   Timer(
   //       Duration(seconds: 4),
   //           () => Navigator.of(context).pop(animatedProgress));
