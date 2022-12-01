@@ -69,7 +69,7 @@ Widget _gridItems(int index) {
     fit: StackFit.expand,
     children: [
       Image.asset(
-        'assets/search/$index.png',
+        'assets/search/$index.jpg',
         fit: BoxFit.cover,
       ),
       if (index % 3 == 0)

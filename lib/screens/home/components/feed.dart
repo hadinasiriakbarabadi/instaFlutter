@@ -160,7 +160,7 @@ class FeedItem extends StatelessWidget {
                   Expanded(
                     child: Text.rich(
                       TextSpan(
-                        text: 'Liked by ',
+                        text: 'پسند توسط ',
                         children: [
                           TextSpan(
                             text: isFollower + ' ',
@@ -169,13 +169,13 @@ class FeedItem extends StatelessWidget {
                             ),
                           ),
                           TextSpan(
-                            text: 'and' + ' ',
+                            text: 'و' + ' ',
                             style: TextStyle(
                               fontWeight: normal,
                             ),
                           ),
                           TextSpan(
-                            text: totalLike.toString() + ' others',
+                            text: totalLike.toString() + ' نفر دیگر',
                             style: TextStyle(
                               fontWeight: bold,
                             ),
@@ -234,7 +234,7 @@ class FeedItem extends StatelessWidget {
                 children: [
                   Expanded(
                     child: Text(
-                      'View all 22 comments',
+                      'مشاهده همه 5،136 نظر',
                       style: TextStyle(
                         color: Colors.grey[500],
                       ),
@@ -264,7 +264,7 @@ class FeedItem extends StatelessWidget {
                         ),
                         children: [
                           TextSpan(
-                            text: 'See Translation',
+                            text: 'ترجمه',
                             style: TextStyle(
                               fontWeight: semibold,
                               color: blackColor,

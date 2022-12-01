@@ -3,6 +3,8 @@ import 'package:havadar/view/login.dart';
 import 'package:flutter/material.dart';
 import 'package:page_transition/page_transition.dart';
 
+import '../util/items/item_1.dart';
+
 class item extends StatelessWidget {
   const item({Key? key}) : super(key: key);
 
@@ -16,9 +18,9 @@ class item extends StatelessWidget {
             end: Alignment(2.0, 2.0),
             // 10% of the width, so there are ten blinds.
             colors: <Color>[
-              Color(0xff70d2fc),
-              Color(0xff008ec7),
-              Color(0xff001219)
+              Color(0xff06800a),
+              Color(0xff27c52c),
+              Color(0xff59f35d)
             ], // red to yellow
           ),
         ),
@@ -40,7 +42,7 @@ class item extends StatelessWidget {
                           PageTransition(
                               type: PageTransitionType.fade,
                               duration: Duration(milliseconds: 500),
-                              child: LoginScreen()));
+                              child: item1()));
                     },
                     child: Column(
                       children: [
@@ -86,10 +88,10 @@ class item extends StatelessWidget {
                         ),
 
                         Text(
-                          'سالن اعلام بار',
+                          'نتایج زنده فوتبال',
                           textAlign: TextAlign.center,
                           style: TextStyle(
-                              fontFamily: "Vazir",
+                              fontFamily: "iranyekan",
                               color: Colors.white70,
                               fontSize: 13.0,
                               fontWeight: FontWeight.w700),
@@ -103,7 +105,7 @@ class item extends StatelessWidget {
                           PageTransition(
                               type: PageTransitionType.fade,
                               duration: Duration(milliseconds: 500),
-                              child: LoginScreen()));
+                              child: item1()));
                     },
                     child: Column(
                       children: [
@@ -151,7 +153,7 @@ class item extends StatelessWidget {
                           'حواله دریافتی',
                           textAlign: TextAlign.center,
                           style: TextStyle(
-                              fontFamily: "Vazir",
+                              fontFamily: "iranyekan",
                               color: Colors.white70,
                               fontSize: 13.0,
                               fontWeight: FontWeight.w700),
@@ -213,7 +215,7 @@ class item extends StatelessWidget {
                           'سوابق بار',
                           textAlign: TextAlign.center,
                           style: TextStyle(
-                              fontFamily: "Vazir",
+                              fontFamily: "iranyekan",
                               color: Colors.white70,
                               fontSize: 13.0,
                               fontWeight: FontWeight.w700),
@@ -278,7 +280,7 @@ class item extends StatelessWidget {
                           'صدور بارنامه',
                           textAlign: TextAlign.center,
                           style: TextStyle(
-                              fontFamily: "Vazir",
+                              fontFamily: "iranyekan",
                               color: Colors.white70,
                               fontSize: 13.0,
                               fontWeight: FontWeight.w700),
@@ -340,7 +342,7 @@ class item extends StatelessWidget {
                           'سوابق بارنامه',
                           textAlign: TextAlign.center,
                           style: TextStyle(
-                              fontFamily: "Vazir",
+                              fontFamily: "iranyekan",
                               color: Colors.white70,
                               fontSize: 13.0,
                               fontWeight: FontWeight.w700),
@@ -402,7 +404,7 @@ class item extends StatelessWidget {
                           'کیف پول',
                           textAlign: TextAlign.center,
                           style: TextStyle(
-                              fontFamily: "Vazir",
+                              fontFamily: "iranyekan",
                               color: Colors.white70,
                               fontSize: 13.0,
                               fontWeight: FontWeight.w700),
@@ -465,7 +467,7 @@ class item extends StatelessWidget {
                           'آب و هوا',
                           textAlign: TextAlign.center,
                           style: TextStyle(
-                              fontFamily: "Vazir",
+                              fontFamily: "iranyekan",
                               color: Colors.white70,
                               fontSize: 13.0,
                               fontWeight: FontWeight.w700),

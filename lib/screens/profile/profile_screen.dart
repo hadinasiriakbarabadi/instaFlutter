@@ -86,7 +86,7 @@ class ProfileScreen extends StatelessWidget {
                                     image: DecorationImage(
                                       fit: BoxFit.cover,
                                       image: AssetImage(
-                                        "assets/avatars/monfauzii.png",
+                                        "assets/avatars/sardar.jpg",
                                       ),
                                     ),
                                   ),
@@ -111,9 +111,9 @@ class ProfileScreen extends StatelessWidget {
                             ],
                           ),
                         ),
-                        follow("12", "Posts"),
-                        follow("1.152", "Followers"),
-                        follow("500", "Following"),
+                        follow("12", "پست"),
+                        follow("80M", "هوادار"),
+                        follow("1", "زتبه"),
                         SizedBox(width: 20),
                       ],
                     ),
@@ -122,7 +122,7 @@ class ProfileScreen extends StatelessWidget {
                       width: 100,
                       margin: EdgeInsets.symmetric(horizontal: defaultMargin),
                       child: Text(
-                        "هوادار",
+                        "سردار شهید حاج قاسم سلیمانی",
                         style: TextStyle(
                           fontWeight: medium,
                         ),
@@ -135,22 +135,7 @@ class ProfileScreen extends StatelessWidget {
                       width: 100,
                       margin: EdgeInsets.symmetric(horizontal: defaultMargin),
                       child: Text(
-                        "@havadar",
-                        style: TextStyle(
-                          color: Colors.blue.shade700,
-                          fontSize: 13,
-                          fontWeight: medium,
-                        ),
-                        textAlign: TextAlign.start,
-                        overflow: TextOverflow.ellipsis,
-                      ),
-                    ),
-                    SizedBox(height: 5),
-                    Container(
-                      width: 100,
-                      margin: EdgeInsets.symmetric(horizontal: defaultMargin),
-                      child: Text(
-                        "@havadar",
+                        "soleimani.ir",
                         style: TextStyle(
                           color: Colors.blue.shade700,
                           fontSize: 13,
@@ -240,7 +225,7 @@ class ProfileScreen extends StatelessWidget {
                                             shape: BoxShape.circle,
                                             image: DecorationImage(
                                               image: AssetImage(
-                                                  "assets/search/0.png"),
+                                                  "assets/search/0.jpg"),
                                               fit: BoxFit.cover,
                                             ),
                                           ),
@@ -253,7 +238,7 @@ class ProfileScreen extends StatelessWidget {
                               SizedBox(height: 3),
                               Container(
                                 child: Text(
-                                  "Highlights",
+                                  "دیدار",
                                   textAlign: TextAlign.center,
                                   overflow: TextOverflow.ellipsis,
                                 ),
@@ -274,7 +259,7 @@ class ProfileScreen extends StatelessWidget {
                               SizedBox(height: 3),
                               Container(
                                 child: Text(
-                                  "New",
+                                  "جدید",
                                   textAlign: TextAlign.center,
                                   overflow: TextOverflow.ellipsis,
                                 ),
@@ -305,7 +290,7 @@ class ProfileScreen extends StatelessWidget {
                       ),
                       Tab(
                         icon: Icon(
-                          Icons.assignment_ind_outlined,
+                          Icons.shopping_cart_sharp,
                         ),
                       ),
                     ],
@@ -324,12 +309,12 @@ class ProfileScreen extends StatelessWidget {
                         alignment: Alignment.bottomLeft,
                         decoration: BoxDecoration(
                           image: DecorationImage(
-                            image: AssetImage("assets/search/$index.png"),
+                            image: AssetImage("assets/search/$index.jpg"),
                             fit: BoxFit.cover,
                           ),
                         ),
                       );
-                    }, childCount: 17),
+                    }, childCount: 9),
                     gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
                       crossAxisCount: 3,
                       crossAxisSpacing: 1,
@@ -346,12 +331,12 @@ class ProfileScreen extends StatelessWidget {
                         alignment: Alignment.bottomLeft,
                         decoration: BoxDecoration(
                           image: DecorationImage(
-                            image: AssetImage("assets/search/$index.png"),
+                            image: AssetImage("assets/product/$index.jpg"),
                             fit: BoxFit.cover,
                           ),
                         ),
                       );
-                    }, childCount: 17),
+                    }, childCount: 9),
                     gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
                       crossAxisCount: 3,
                       crossAxisSpacing: 1,
