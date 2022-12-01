@@ -1,10 +1,11 @@
+import 'package:havadar/screens/widgets/widgets.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_staggered_grid_view/flutter_staggered_grid_view.dart';
-import 'package:havadar/screens/data/instastory_data.dart';
-import 'package:havadar/screens/data/feed_data.dart';
-import 'package:havadar/screens/widgets/widgets.dart';
-import 'package:havadar/shared/shared.dart';
 import 'package:marquee/marquee.dart';
+
+import '../shared/shared.dart';
+import 'data/feed_data.dart';
+import 'data/instastory_data.dart';
 
 part 'signin/signin_screen.dart';
 

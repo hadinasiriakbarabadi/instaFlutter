@@ -1,12 +1,12 @@
 class FeedData {
   static const List<Map<String, dynamic>> mapFeed = [
     {
-      'avatar': 'assets/avatars/monfadev.png',
-      'username': 'monfadev',
+      'avatar': 'assets/avatars/taremi.jpg',
+      'username': 'علیرضا طارمی',
       'location': 'Jakarta, Indonesia',
-      'posting_image': 'assets/feeds/monfadev_posting_image.png',
+      'posting_image': 'assets/feeds/taremi1.jpg',
       'description':
-          'Halo semua, pada kali ini saya ingin sharing bagaimana slicing UI Design aplikasi Instagram dengan menggunakan Flutter',
+          'شروعی فوق العاده برای لیگ بریم پورتو 🐉🙏🏻🐉🙏🏻',
       'is_avatar_follower': 'assets/avatars/rfprivatestore.png',
       'is_follower': 'rfprivatestore',
       'total_like': 2608,

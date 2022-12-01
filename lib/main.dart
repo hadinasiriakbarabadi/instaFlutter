@@ -1,5 +1,6 @@
-import 'package:flutter/material.dart';
 import 'package:havadar/shared/shared.dart';
+import 'package:havadar/view/splash_screen.dart';
+import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 
 import 'screens/screens.dart';
@@ -22,10 +23,12 @@ class MyApp extends StatelessWidget {
       ],
       locale: Locale("fa", "IR"),
       theme: ThemeData(
+        primarySwatch: Colors.green,
+        fontFamily: 'iranyekan',
         scaffoldBackgroundColor: whiteColor,
       ),
       debugShowCheckedModeBanner: false,
-      home: SignInScreen(),
+      home: SplashScreen(),
     );
   }
 }
